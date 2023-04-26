@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   background-color: aquamarine;
@@ -14,7 +18,8 @@ header {
   justify-content: space-between;
 }
 
-h1 {
+h1,
+h2 {
   font-size: medium;
   margin-left: 5%;
   padding: 5%;
@@ -37,4 +42,8 @@ a:link {
 
 a:visited {
   color: white;
+}
+
+section {
+  background-color: darkcyan;
 }
