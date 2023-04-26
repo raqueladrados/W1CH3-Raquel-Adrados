@@ -1,11 +1,8 @@
-* {
-  box-sizing: border-box;
-}
-
 html,
 body {
   background-color: aquamarine;
-  font-family: sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 header {
@@ -18,8 +15,7 @@ header {
   justify-content: space-between;
 }
 
-h1,
-h2 {
+h1 {
   font-size: medium;
   margin-left: 5%;
   padding: 5%;
@@ -30,7 +26,6 @@ ul,
 li {
   list-style-type: none;
   display: inline;
-  margin-right: 1%;
   font-size: small;
   color: white;
 }
@@ -45,12 +40,13 @@ a:visited {
 }
 
 section,
-.container2 {
-  background-color: darkcyan;
-  display: inline-flexbox;
+.articule-container {
+  background-color: coral;
+  justify-content: space-between;
 }
 
 section,
-.articule-container {
-  background-color: coral;
+.container2 {
+  background-color: darkcyan;
+  display: inline-flexbox;
 }
