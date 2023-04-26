@@ -44,6 +44,13 @@ a:visited {
   color: white;
 }
 
-section {
+section,
+.container2 {
   background-color: darkcyan;
+  display: inline-flexbox;
+}
+
+section,
+.articule-container {
+  background-color: coral;
 }
