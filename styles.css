@@ -1,0 +1,67 @@
+html,
+body {
+  background-color: aquamarine;
+  font-family: sans-serif;
+}
+
+header {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-color: cadetblue;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: medium;
+  margin-left: 5%;
+  padding: 5%;
+  color: white;
+}
+
+ul,
+li {
+  list-style-type: none;
+  display: inline;
+  font-size: small;
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+section,
+.container2 {
+  background-color: darkcyan;
+}
+
+div {
+  padding: 20px;
+  justify-content: center;
+}
+
+h2 {
+  color: white;
+}
+
+section,
+.articule-container {
+  background-color: coral;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+h3 {
+  margin-left: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
